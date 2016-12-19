@@ -1,0 +1,38 @@
+/*
+Theme Name: StoffwechselWetter
+Description: Childtheme mit Sidebar
+Author: Michael Gropp
+Author URI: http://www.pro-icon.de
+Template: twentyseventeen
+Version: 1.0
+Tags:
+*/
+
+
+
+.twentyseventeen-front-page .site-content{
+	  padding-top: 2.5em;
+}
+
+.twentyseventeen-front-page .panel-content .wrap{
+   padding-left: 1em;
+    padding-right: 1em;
+}
+
+has-sidebar:not(.error404) #primary{
+    float: left;
+    width: 67%;
+}
+
+.has-sidebar #secondary{
+	 width: 30%;
+}
+
+.panel-content .wrap{
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.wrap { 
+	max-width: 1366px;
+}
